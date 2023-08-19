@@ -24,7 +24,7 @@ En los archivos:
 - register_process.php: en la linea 8, se deben colocar los datos de conexión a la respectiva base de datos descrita en el punto anterior.
 
 Luego disponga los archivos en la ruta del servidor web de php. 
-- Por ejemplo: Si utiliza como servidor web, xampp: ruta: C:\xampp\htdocs\, esta sujento tambien a la ruta donde apunta el servidor.
+- Por ejemplo: Si utiliza como servidor web, xampp: ruta: C:\xampp\htdocs\, esta sujeto tambien a la ruta donde apunta el servidor.
 
 Una vez creada la base de datos, disponer los archivos en la ruta del servidor y configurar los archivos login_process.php y register.process.php, debe acceder a su navegador de preferencia 
 y colocar: http://localhost/Pokemon_api/
