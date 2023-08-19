@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $db = new mysqli('localhost', 'root', 'f3l1xjun10r', 'pokemon_db');
+    $db = new mysqli('localhost', 'tu_usuario', 'tu_pw', 'pokemon_db');
 
     if ($db->connect_error) {
         die("Error de conexión: " . $db->connect_error);
